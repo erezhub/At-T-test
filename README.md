@@ -7,8 +7,11 @@ it allows to:
 4.  make a booking for a movie.
 
 prerequisits:
+
 Java 21 and above
+
 Maven 3.9.6 and above
+
 DB - H2
 
 steps to run the application:
