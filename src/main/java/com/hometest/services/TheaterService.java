@@ -10,10 +10,6 @@ import javax.annotation.PostConstruct;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReadWriteLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 @Service
 @RequiredArgsConstructor
@@ -35,7 +31,7 @@ public class TheaterService {
 
     /**
      * get number of seats in a theater
-     * @param theaterId
+     * @param theaterId theater's id
      * @return - number of seats in a theater
      */
     public int getNumberOfSeatsInTheater(long theaterId) {
