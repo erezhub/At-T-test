@@ -4,7 +4,6 @@ import com.hometest.dto.MovieDto;
 import com.hometest.exception.MovieAlreadyExistsException;
 import com.hometest.exception.MovieNotFoundException;
 import com.hometest.services.MovieService;
-import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.DeleteMapping;
