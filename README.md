@@ -9,6 +9,7 @@ it allows to:
 prerequisits:
 Java 21 and above
 Maven 3.9.6 and above
+DB - H2
 
 steps to run the application:
 1.  pull project
@@ -17,7 +18,7 @@ steps to run the application:
 4.  run 'java -jar .\atnt-test-0.0.1-SNAPSHOT.jar'
 
 in order to make API calls, use 'Basic Auth'.
-credentials of default admin user can be set in the application.propertis file
+credentials of default admin user can be set in the application.propertis file.  
 also, in the application.propertis file the number of theaters and their seats can be set.
 
 API documentation:
