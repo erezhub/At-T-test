@@ -1,6 +1,5 @@
 package com.hometest.dto;
 
-import com.hometest.enums.UserRole;
 import lombok.Data;
 
 @Data
